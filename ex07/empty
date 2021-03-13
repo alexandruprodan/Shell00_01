@@ -1,0 +1,14 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    empty                                              :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aprodan <aprodan@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2021/03/11 18:27:43 by aprodan           #+#    #+#              #
+#    Updated: 2021/03/11 18:29:28 by aprodan          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#find in filename symbol, print, delete, go right repeat for next symbol
+find . -name "*~" -print -delete -o -name "*#" -print -delete -o -name "#*" -print -delete
